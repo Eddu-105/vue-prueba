@@ -91,7 +91,7 @@ export default {
     const cui = this.$route.params.cui
 
     const response = await axios.get(
-      `https://sisacad-enrollments-backend.vercel.app/restful/enrollment-certificate/?cui=${cui}`
+        `/api/constancia?cui=${cui}`
     )
 
     this.cursos = response.data.results
