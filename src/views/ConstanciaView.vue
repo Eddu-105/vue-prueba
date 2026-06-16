@@ -63,7 +63,7 @@
       </section>
 
       <p class="footer">
-        Documento generado digitalmente por el Sistema de Matrícula de Laboratorio EPIS.
+        Documento generado digitalmente por Osmeyer Meza en el laboratorio de la EPIS en el curso de DAW.
       </p>
     </div>
   </div>
