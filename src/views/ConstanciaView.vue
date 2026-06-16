@@ -116,8 +116,20 @@ export default {
 .certificate {
   max-width: 1180px;
   margin: auto;
-  border: 3px solid #111;
-  padding: 12px;
+  padding: 18px;
+  border: 2px solid #0b3d6d;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  background: white;
+}
+
+.certificate::before {
+  content: "";
+  display: block;
+  height: 6px;
+  background: #0b3d6d;
+  border-radius: 10px 10px 0 0;
+  margin: -18px -18px 18px -18px;
 }
 
 h1 {
